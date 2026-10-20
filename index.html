@@ -258,9 +258,6 @@ footer p{margin:0;color:var(--dim);font-size:14px}
 .ptipo small{color:var(--steel);font-size:14px;line-height:1.5}
 .ptipo[aria-pressed="true"]{border-color:var(--red);background:var(--ink-3)}
 .pmodal .x{float:right;background:none;border:1px solid var(--line);color:var(--chrome);width:40px;height:40px;font-size:20px;cursor:pointer}
-.demo{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:70;background:var(--ink-3);border:1px solid var(--red);color:var(--chrome);padding:12px 16px;font:500 15px var(--f-body);width:max-content;max-width:min(92vw,420px);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.6)}
-.demo[hidden]{display:none}
-button.fab{border:0;cursor:pointer}
 .copy{background:none;border:1px solid var(--line);color:var(--steel);font:600 12px var(--f-body);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;cursor:pointer;justify-self:start}
 </style>
 
@@ -278,7 +275,7 @@ button.fab{border:0;cursor:pointer}
     <span class="eyebrow">Detalhamento que faz a diferença · Arcos MG</span>
     <h1 class="disp">Mais que estética, <span class="red">é valorização</span></h1>
     <p class="lead">Lavagem técnica, higienização, polimento e vitrificação. Desde 2014 em Arcos, com confiança e qualidade em cada detalhe.</p>
-    <div class="ctas"><a class="btn btn-red" href="#servicos">Ver serviços e preços</a><button type="button" class="btn btn-ghost" data-demo>Chamar no WhatsApp</button></div>
+    <div class="ctas"><a class="btn btn-red" href="#servicos">Ver serviços e preços</a><a class="btn btn-ghost" target="_blank" rel="noopener" href="https://wa.me/5537999434632">Chamar no WhatsApp</a></div>
     <div class="badges"><span><b>14</b> serviços</span><span>Técnico <b>TFP Brasil</b></span><span><b>+15 anos</b> de experiência</span><span>Desde <b>2014</b></span></div>
   </div>
 </section>
@@ -287,7 +284,7 @@ button.fab{border:0;cursor:pointer}
 
 <section id="servicos">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Catálogo de serviços</span><h2 class="disp">Escolha o porte. <span class="red">O preço acompanha.</span></h2><p>Todo preço aqui segue o porte do carro. Toque no <b>+</b> pra montar o seu orçamento e agendar com a gente.</p></div>
+    <div class="sec-head"><span class="eyebrow">Catálogo de serviços</span><h2 class="disp">Escolha o porte. <span class="red">O preço acompanha.</span></h2><p>Todo preço aqui segue o porte do carro. Toque no <b>+</b> pra montar o seu orçamento e mandar direto pro nosso WhatsApp.</p></div>
   </div>
   <div class="porte"><div class="wrap in">
     <span class="lbl">Porte do carro</span>
@@ -327,7 +324,7 @@ button.fab{border:0;cursor:pointer}
 
 <section id="orcamento">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Monte seu orçamento</span><h2 class="disp">Escolheu? <span class="red">Agenda com a gente.</span></h2><p>Marque os serviços, escolha o dia de preferência e mande o pedido. A gente responde confirmando a vaga. Os valores são do catálogo. O preço final a gente confirma vendo o carro.</p></div>
+    <div class="sec-head"><span class="eyebrow">Monte seu orçamento</span><h2 class="disp">Escolheu? <span class="red">Agenda com a gente.</span></h2><p>Marque os serviços, escolha o dia de preferência e mande pelo WhatsApp. A gente responde confirmando a vaga. Os valores são do catálogo. O preço final a gente confirma vendo o carro.</p></div>
     <div class="quote">
       <div class="qlist" id="qlist"></div>
       <aside class="qbox" aria-live="polite">
@@ -337,8 +334,8 @@ button.fab{border:0;cursor:pointer}
         <label for="qCarro">Carro<input id="qCarro" placeholder="Modelo e ano"></label>
         <label for="qDia">Dia de preferência<input type="date" id="qDia"></label>
         <p class="note" id="qDiaMsg">A gente confirma se o dia está livre.</p>
-        <button type="button" class="btn btn-red" id="qSend" data-demo style="justify-content:center">Agendar pelo WhatsApp</button>
-        <p class="note">Abre o WhatsApp com o pedido de agendamento pronto. É só tocar em enviar. A gente confirma o dia por lá.</p>
+        <a class="btn btn-red" id="qSend" target="_blank" rel="noopener" href="https://wa.me/5537999434632" style="justify-content:center">Agendar pelo WhatsApp</a>
+        <p class="note">Abre o WhatsApp com o pedido de agendamento pronto. É só tocar em enviar. A gente confirma o dia por lá. Se não abrir, chame no <b style="user-select:all">(37) 99943-4632</b>.</p>
       </aside>
     </div>
   </div>
@@ -348,9 +345,9 @@ button.fab{border:0;cursor:pointer}
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Contato</span><h2 class="disp">Vem pra <span class="red">Renov Car</span></h2></div>
     <div class="contact">
-      <div class="cbox"><span class="k">WhatsApp</span><span class="v">(37) 9943-4632</span><button class="copy" data-copy="3799434632">Copiar número</button></div>
+      <div class="cbox"><span class="k">WhatsApp</span><span class="v">(37) 99943-4632</span><button class="copy" data-copy="37999434632">Copiar número</button></div>
       <div class="cbox"><span class="k">Cidade</span><span class="v">Arcos, MG</span><span class="s">Endereço completo no WhatsApp.</span></div>
-      <div class="cbox"><span class="k">Atendimento</span><span class="v">Com hora<br>marcada</span><span class="s">Monte o orçamento aqui e escolha o dia.</span></div>
+      <div class="cbox"><span class="k">Atendimento</span><span class="v">Com hora<br>marcada</span><span class="s">Monte o orçamento aqui e agende pelo WhatsApp.</span></div>
       <div class="cbox"><span class="k">Instagram</span><span class="v" style="font-size:24px;text-transform:none">@alcinofelipeoficial</span><a class="s" target="_blank" rel="noopener" href="https://www.instagram.com/alcinofelipeoficial/">Ver os trabalhos</a></div>
     </div>
   </div>
@@ -358,8 +355,7 @@ button.fab{border:0;cursor:pointer}
 </main>
 
 <footer><div class="wrap"><svg class="logo" viewBox="0 0 260 64" aria-hidden="true"><path d="M6 6h44l4 4v26c0 12-14 22-26 26C16 58 2 48 2 36V10z" fill="none" stroke="#E9E9EC" stroke-width="3.5"/><path d="M10 40c4 10 12 15 18 18 6-3 14-8 18-18z" fill="#2BD94A" opacity=".9"/><g fill="#2BD94A"><circle cx="16" cy="15" r="2.4"/><circle cx="22" cy="12.5" r="2.4"/><circle cx="28" cy="11.5" r="2.4"/><circle cx="34" cy="12.5" r="2.4"/><circle cx="40" cy="15" r="2.4"/></g><path d="M9 31c5-6 12-9 20-9 7 0 12 2 18 7l2 3H9z" fill="#E9E9EC"/><text x="64" y="38" font-family="Saira Condensed,Arial Narrow,sans-serif" font-weight="900" font-style="italic" font-size="38" letter-spacing=".5"><tspan fill="#2BD94A">RENOV</tspan><tspan fill="#E9E9EC" dx="8">CAR</tspan></text><text x="66" y="55" font-family="Barlow,Segoe UI,sans-serif" font-weight="600" font-size="11.5" letter-spacing="3.2" fill="#A3A3AB">ESTÉTICA AUTOMOTIVA</text></svg><p>Renov Car Estética Automotiva · Arcos, MG · Desde 2014</p></div></footer>
-<button type="button" class="fab" data-demo aria-label="Chamar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.6 11.6 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.8-.2z"/></svg></button>
-<div class="demo" id="demo" hidden role="status"></div>
+<a class="fab" href="https://wa.me/5537999434632" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.6 11.6 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.8-.2z"/></svg></a>
 <a class="cart" id="cart" href="#orcamento" hidden></a>
 <div class="pmodal" id="pmodal" hidden role="dialog" aria-modal="true" aria-labelledby="pmTit"><div class="box">
   <button class="x" id="pmX" aria-label="Fechar">✕</button>
@@ -375,8 +371,8 @@ button.fab{border:0;cursor:pointer}
 <script>
 (function(){
 "use strict";
-/* Demonstração: preços do catálogo da Garagem. Preço por porte: PP, PM, PG. null = sob consulta.
-   Os botões de WhatsApp (data-demo) não abrem nada, só mostram o aviso. */
+const WA = "5537999434632";
+/* Preços do catálogo da Garagem. Preço por porte: PP, PM, PG. null = sob consulta */
 const CATS = [
   {nome:"Limpeza", itens:[
     {n:"01", id:"conv", nome:"Limpeza Convencional", img:"limpeza-convencional", d:"Limpeza externa, interna com aspiração, cera e condicionamento de plásticos.", t:["Limpeza externa","Aspiração interna","Cera","Plásticos"], p:[180,216,252]},
@@ -455,7 +451,26 @@ function renderQuote(){
   document.getElementById("barTot").textContent = "R$ "+brl(tot)+(temConsulta?" +":"");
   atualizaWa();
 }
-function atualizaWa(){}
+function atualizaWa(){
+  const ids = [...sel.keys()];
+  const nome = document.getElementById("qNome").value.trim(), carro = document.getElementById("qCarro").value.trim();
+  const dia = document.getElementById("qDia").value;
+  const DS = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+  let diaTxt = "";
+  if (dia){ const [y,m,d] = dia.split("-").map(Number); const dt = new Date(y,m-1,d); diaTxt = DS[dt.getDay()]+", "+String(d).padStart(2,"0")+"/"+String(m).padStart(2,"0"); }
+  const linhas = [];
+  linhas.push("*NOVO AGENDAMENTO* pelo site");
+  linhas.push("Olá, Renov Car"+(nome?"! Aqui é "+nome:""));
+  linhas.push("Dia de preferência: "+(diaTxt || "a combinar"));
+  if (ids.length){
+    linhas.push("Serviços:");
+    ids.forEach(id => { const v = preco(id); linhas.push("- "+all[id].nome+(v==null?" (sob consulta)":" R$ "+brl(v))); });
+    linhas.push("Porte: "+porte);
+    linhas.push("Total pelo catálogo: R$ "+brl(ids.reduce((s,id)=>s+(preco(id)||0),0)));
+  } else linhas.push("Serviço: a definir");
+  if (carro) linhas.push("Carro: "+carro);
+  document.getElementById("qSend").href = "https://wa.me/"+WA+"?text="+encodeURIComponent(linhas.join("\n"));
+}
 function setPorte(p){
   porte = p; try { localStorage.setItem("renov.porte", p); } catch(e){}
   document.querySelectorAll("[data-porte]").forEach(b => b.setAttribute("aria-pressed", b.dataset.porte===p));
@@ -465,9 +480,9 @@ document.addEventListener("click", e => {
   const b = e.target.closest("[data-porte]"); if (b) { setPorte(b.dataset.porte); return; }
   const a = e.target.closest("[data-add]"); if (a) { const id = a.dataset.add; if (sel.has(id)) sel.delete(id); else sel.set(id,1); renderCats(); renderLadder(); renderQuote(); return; }
   const c = e.target.closest("[data-copy]"); if (c) { const t = c.dataset.copy; const ok = () => { c.textContent = "Número copiado"; setTimeout(()=>c.textContent="Copiar número",2000); };
-    try { navigator.clipboard.writeText(t).then(ok, ()=>{ c.textContent = "(37) 9943-4632"; }); } catch(err){ c.textContent = "(37) 9943-4632"; } }
-  const dm = e.target.closest("[data-demo]"); if (dm) { const box = document.getElementById("demo"); box.textContent = "Demonstração: no site final, esse botão abre o WhatsApp da Renov Car com o pedido pronto."; box.hidden = false; clearTimeout(box._t); box._t = setTimeout(()=>box.hidden = true, 3500); }
+    try { navigator.clipboard.writeText(t).then(ok, ()=>{ c.textContent = "(37) 99943-4632"; }); } catch(err){ c.textContent = "(37) 99943-4632"; } }
 });
+["qNome","qCarro","qDia"].forEach(id => { const el = document.getElementById(id); el.addEventListener("input", atualizaWa); el.addEventListener("change", atualizaWa); });
 (function(){
   const d = document.getElementById("qDia"); const t = new Date(); d.min = t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
 })();
@@ -496,7 +511,7 @@ document.getElementById("pmBusca").addEventListener("input", e => {
   /* pontua cada modelo: nome igual vence; senão, o modelo mais longo contido no que foi digitado; senão, começo do nome */
   const pts = m => { const n = norm(m); return n === q ? 1000 : q.includes(n) ? n.length*10 : n.startsWith(q) ? 5 : n.includes(q) ? 1 : 0; };
   const notas = PORTES.map(x => ({x, s: Math.max(...x.ex.map(pts))})).filter(o => o.s > 0).sort((a,b) => b.s - a.s);
-  if (!notas.length){ res.innerHTML = '<span style="color:var(--steel)">Não achamos esse modelo. Escolha pelo tipo abaixo.</span>'; document.querySelectorAll(".ptipo").forEach(b => b.style.display = ""); return; }
+  if (!notas.length){ res.innerHTML = '<span style="color:var(--steel)">Não achamos esse modelo. Escolha pelo tipo abaixo ou chame no WhatsApp.</span>'; document.querySelectorAll(".ptipo").forEach(b => b.style.display = ""); return; }
   const achados = notas.filter(o => o.s === notas[0].s).map(o => o.x);
   const x = achados[0];
   res.innerHTML = 'Seu carro é porte <b class="red">'+x.p+'</b> ('+x.nome.toLowerCase()+'). Toque abaixo pra escolher.';
