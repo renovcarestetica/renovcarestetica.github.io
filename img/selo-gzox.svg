@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="Aplicador credenciado G'ZOX Japan Coating Service">
+  <!-- contorno laranja com a aba de cima, como a placa da parede -->
+  <path d="M30 62 Q30 44 48 44 H196 Q212 44 220 30 L228 16 Q234 6 248 6 H600 Q622 6 622 28 V222 Q622 246 598 246 H52 Q30 246 30 224 Z" fill="#F0943A"/>
+  <path d="M40 68 Q40 54 54 54 H200 Q216 54 226 38 L234 24 Q238 16 250 16 H596 Q612 16 612 32 V218 Q612 236 594 236 H56 Q40 236 40 220 Z" fill="#1B1B1B"/>
+  <text x="430" y="44" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="22" fill="#fff" letter-spacing="0.5">APLICADOR CREDENCIADO</text>
+  <!-- emblema oval laranja com o G -->
+  <ellipse cx="135" cy="128" rx="78" ry="46" fill="#F0943A" transform="rotate(-8 135 128)"/>
+  <ellipse cx="135" cy="128" rx="54" ry="27" fill="#1B1B1B" transform="rotate(-8 135 128)"/>
+  <path d="M102 132 Q104 112 132 108 H170 L164 122 H136 Q124 124 124 134 Q124 142 134 142 H146 L150 132 H138 L142 124 H168 L158 150 H128 Q100 150 102 132 Z" fill="#F0943A"/>
+  <text x="402" y="160" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-style="italic" font-size="96" fill="#fff" letter-spacing="-3" transform="skewX(-10) translate(28 0)">G'ZOX</text>
+  <text x="600" y="168" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#fff">®</text>
+  <text x="326" y="214" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#fff" letter-spacing="7"><tspan>JAPAN </tspan><tspan fill="#F6C08E">COATING SERVICE</tspan></text>
+</svg>

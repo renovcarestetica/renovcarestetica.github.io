@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Aplicador credenciado SOFT99">
+  <defs>
+    <path id="arcTop" d="M 58 200 A 142 142 0 0 1 342 200"/>
+    <path id="arcBot" d="M 33 200 A 167 167 0 0 0 367 200"/>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="#E8564F"/>
+  <circle cx="200" cy="200" r="188" fill="#111"/>
+  <circle cx="200" cy="200" r="118" fill="#fff"/>
+  <circle cx="200" cy="200" r="122" fill="none" stroke="#E8564F" stroke-width="3"/>
+  <text font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="40" fill="#fff" letter-spacing="3"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">APLICADOR</textPath></text>
+  <text font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="38" fill="#fff" letter-spacing="2"><textPath href="#arcBot" startOffset="50%" text-anchor="middle">CREDENCIADO</textPath></text>
+  <circle cx="45" cy="200" r="9" fill="#E8564F"/>
+  <circle cx="355" cy="200" r="9" fill="#E8564F"/>
+  <!-- marca SOFT99: duas faixas vermelhas em degrau -->
+  <path d="M120 150 H198 C210 150 210 136 222 136 H280 V156 H226 C214 156 214 170 202 170 H120 Z" fill="#E8564F"/>
+  <path d="M120 178 H198 C210 178 210 164 222 164 H280 V184 H226 C214 184 214 198 202 198 H120 Z" fill="#E8564F"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" fill="#1a1a1a"><tspan font-size="30" font-weight="400" letter-spacing="-1">SOFT</tspan><tspan font-size="52" font-weight="900">99</tspan></text>
+  <text x="200" y="278" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#777" letter-spacing="1">• Made in Japan</text>
+</svg>
